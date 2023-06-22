@@ -992,7 +992,7 @@ function XTInitialise(category)
 
 function XTTrackingSystem()
 {
-    return "SCORM";
+    return "";
 }
 
 function XTLogin(login, passwd)
@@ -1019,7 +1019,7 @@ function XTGetMode(extended)
         }
     }
     else
-        return ""; // TJA
+        return "tracking"; // TJA
 }
 
 function XTStartPage()
