@@ -1019,7 +1019,7 @@ function XTGetMode(extended)
         }
     }
     else
-        return "normal-last"; // TJA
+        return "normal"; // TJA
 }
 
 function XTStartPage()
