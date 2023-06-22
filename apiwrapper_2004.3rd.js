@@ -64,7 +64,7 @@ _debug = false;
 function findAPI( win )
 {
   
-/*	while ( (win.API_1484_11 == null) &&
+	while ( (win.API_1484_11 == null) &&
            (win.parent != null) &&
            (win.parent != win) )
    {
@@ -78,7 +78,7 @@ function findAPI( win )
 
       win = win.parent;
    }
-*/
+
    return win.API_1484_11;
 }
 
@@ -104,7 +104,7 @@ function getAPI()
    {
       theAPI = findAPI( window.opener );
    }
-
+/*
    if (theAPI == null)
    {
       alert( "Unable to locate the LMS's API Implementation.\n" +
@@ -112,7 +112,7 @@ function getAPI()
 
       noAPIFound = "true";
    }
-
+*/
    return theAPI
 }
 
