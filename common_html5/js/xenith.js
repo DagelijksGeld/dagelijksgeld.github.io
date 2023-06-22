@@ -2447,6 +2447,7 @@ function x_continueSetUp2() {
 	XTInitialise(x_params.category); // initialise here, because of XTStartPage in next function
 	// Set course, module and resume options AFTER XTInitialise
 	// Display warning if this is a SCORM object and the tracking mode is NOT 'normal'
+	/* TJA
 	if (XTTrackingSystem().indexOf('SCORM') >= 0 && XTGetMode() != 'normal')
 	{
 		var scorm_alert_default = "Please note: SCORM mode is '{0}'. This means that your progress, interactions and results from this viewing will not be tracked or saved. For tracking you should start a new attempt.";
@@ -2454,6 +2455,7 @@ function x_continueSetUp2() {
 		scorm_alert_lang = scorm_alert_lang.replace("{0}", XTGetMode());
 		alert(scorm_alert_lang);
 	}
+	*/
 	if (x_params.course != undefined && x_params.course != "") {
 		XTSetOption('course', x_params.course);
 	}
