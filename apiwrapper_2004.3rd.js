@@ -104,6 +104,7 @@ function getAPI()
    {
       theAPI = findAPI( window.opener );
    }
+
 /*
    if (theAPI == null)
    {
@@ -113,6 +114,7 @@ function getAPI()
       noAPIFound = "true";
    }
 */
+
    return theAPI
 }
 
