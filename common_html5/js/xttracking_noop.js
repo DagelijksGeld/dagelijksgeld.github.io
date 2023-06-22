@@ -57,6 +57,7 @@ function NoopTrackingState()
     this.mode = "normal";
     this.scoremode = 'first';
     this.nrpages = 0;
+    this.nrpages = 0;
     this.toCompletePages = new Array();
     this.completedPages = new Array();
     this.start = new Date();
@@ -1018,7 +1019,7 @@ function XTGetMode(extended)
         }
     }
     else
-        return "";
+        return "normal"; // TJA
 }
 
 function XTStartPage()
