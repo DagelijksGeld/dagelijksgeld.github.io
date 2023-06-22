@@ -63,8 +63,7 @@ _debug = false;
 *******************************************************************************/
 function findAPI( win )
 {
-  
-/*	while ( (win.API_1484_11 == null) &&
+   while ( (win.API_1484_11 == null) &&
            (win.parent != null) &&
            (win.parent != win) )
    {
@@ -78,7 +77,7 @@ function findAPI( win )
 
       win = win.parent;
    }
-*/
+
    return win.API_1484_11;
 }
 
